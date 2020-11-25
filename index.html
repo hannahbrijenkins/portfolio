@@ -14,11 +14,12 @@
     />
     <!-- Font-Family: 'Roboto Condensed', Sans-Serif; Font-Size: 35px; Font-Family:
     'Cabin', Sans-Serif; Font-Size: 16px; -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <nav class="navbar is-light">
-        <h1 class="navbar-brand">Hannah Jenkins</h1>
+      <nav class="navbar is-primary">
+        <h1 class="title">Hannah Jenkins</h1>
         <div class="navbar-menu navbar-end">
           <a class="navbar-item">About</a>
           <a class="navbar-item">Contact</a>
@@ -27,13 +28,22 @@
         </div>
       </nav>
     </header>
+    <!-- Main Section of Landing Page -->
     <section>
-      <div class="container is-justify-content-space-evenly">
-        <h1 class="">
-          Welcome to my new portfolio. I am Hannah, and I am glad you're here!
-        </h1>
-        <button class="is-justify-content-center">Graphic design work</button>
-        <button>Web development projects</button>
+      <!-- Welcome Message Wrap -->
+      <div class="hero-image">
+        <div class="text-wrap">
+          <h1 class="hero-text">
+            Welcome to my new portfolio. I am Hannah, and I am glad you're here!
+          </h1>
+          <!-- Portfolio Links -->
+          <button class="button is-rounded is-primary is-outlined hero-text">
+            Graphic design work
+          </button>
+          <button class="button is-rounded is-primary is-outlined hero-text">
+            Web development projects
+          </button>
+        </div>
       </div>
     </section>
     <footer>
