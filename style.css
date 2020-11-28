@@ -23,11 +23,24 @@ html {
   height: 100%;
 }
 
+/* background color */
+.light-gray {
+  background-color: #bdcad9;
+  background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%);
+
+}
 /* website title */
 .title {
   font-family: "Roboto Condensed", Sans-Serif;
   color: aliceblue;
   font-size: 45px;
+}
+.sectiontitle {
+  font-family: "Roboto Condensed", Sans-Serif;
+}
+/* body font */
+.mainfont {
+  Font-Family:'Cabin', Sans-Serif;
 }
 
 /* The hero image */
